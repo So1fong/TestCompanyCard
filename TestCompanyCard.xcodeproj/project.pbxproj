@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		755BEAC71AFD7AB4DDBD1CA6 /* Pods_TestCompanyCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D081A653F36B93CAAFF16EC0 /* Pods_TestCompanyCard.framework */; };
 		C636C19E22B220F400553064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636C19D22B220F400553064 /* AppDelegate.swift */; };
-		C636C1A022B220F400553064 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636C19F22B220F400553064 /* ViewController.swift */; };
-		C636C1A322B220F400553064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C636C1A122B220F400553064 /* Main.storyboard */; };
 		C636C1A522B220F500553064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C636C1A422B220F500553064 /* Assets.xcassets */; };
 		C636C1A822B220F600553064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C636C1A622B220F600553064 /* LaunchScreen.storyboard */; };
 		C636C1B322B220F600553064 /* TestCompanyCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636C1B222B220F600553064 /* TestCompanyCardTests.swift */; };
 		C636C1BE22B220F600553064 /* TestCompanyCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636C1BD22B220F600553064 /* TestCompanyCardUITests.swift */; };
+		C636C1CC22B2217D00553064 /* CompanyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636C1CB22B2217D00553064 /* CompanyListViewController.swift */; };
+		C636C1CE22B2286800553064 /* CompanyCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636C1CD22B2286800553064 /* CompanyCardViewController.swift */; };
+		C636C1D022B22A9900553064 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636C1CF22B22A9900553064 /* Request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		258EA9C08EF9E714967F1111 /* Pods-TestCompanyCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCompanyCard.debug.xcconfig"; path = "Target Support Files/Pods-TestCompanyCard/Pods-TestCompanyCard.debug.xcconfig"; sourceTree = "<group>"; };
+		94B8D87758A862DF9A4AD533 /* Pods-TestCompanyCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCompanyCard.release.xcconfig"; path = "Target Support Files/Pods-TestCompanyCard/Pods-TestCompanyCard.release.xcconfig"; sourceTree = "<group>"; };
 		C636C19A22B220F400553064 /* TestCompanyCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCompanyCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C636C19D22B220F400553064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C636C19F22B220F400553064 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C636C1A222B220F400553064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C636C1A422B220F500553064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C636C1A722B220F600553064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C636C1A922B220F600553064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		C636C1B922B220F600553064 /* TestCompanyCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCompanyCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C636C1BD22B220F600553064 /* TestCompanyCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCompanyCardUITests.swift; sourceTree = "<group>"; };
 		C636C1BF22B220F600553064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C636C1CB22B2217D00553064 /* CompanyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyListViewController.swift; sourceTree = "<group>"; };
+		C636C1CD22B2286800553064 /* CompanyCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyCardViewController.swift; sourceTree = "<group>"; };
+		C636C1CF22B22A9900553064 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		D081A653F36B93CAAFF16EC0 /* Pods_TestCompanyCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestCompanyCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				755BEAC71AFD7AB4DDBD1CA6 /* Pods_TestCompanyCard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B9352EAFACE125B257A8B87D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				258EA9C08EF9E714967F1111 /* Pods-TestCompanyCard.debug.xcconfig */,
+				94B8D87758A862DF9A4AD533 /* Pods-TestCompanyCard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C636C19122B220F400553064 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +97,8 @@
 				C636C1B122B220F600553064 /* TestCompanyCardTests */,
 				C636C1BC22B220F600553064 /* TestCompanyCardUITests */,
 				C636C19B22B220F400553064 /* Products */,
+				B9352EAFACE125B257A8B87D /* Pods */,
+				E1EB76E8F99D95A7D91A2318 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +116,12 @@
 			isa = PBXGroup;
 			children = (
 				C636C19D22B220F400553064 /* AppDelegate.swift */,
-				C636C19F22B220F400553064 /* ViewController.swift */,
-				C636C1A122B220F400553064 /* Main.storyboard */,
 				C636C1A422B220F500553064 /* Assets.xcassets */,
-				C636C1A622B220F600553064 /* LaunchScreen.storyboard */,
+				C636C1CD22B2286800553064 /* CompanyCardViewController.swift */,
+				C636C1CB22B2217D00553064 /* CompanyListViewController.swift */,
 				C636C1A922B220F600553064 /* Info.plist */,
+				C636C1A622B220F600553064 /* LaunchScreen.storyboard */,
+				C636C1CF22B22A9900553064 /* Request.swift */,
 			);
 			path = TestCompanyCard;
 			sourceTree = "<group>";
@@ -125,6 +144,14 @@
 			path = TestCompanyCardUITests;
 			sourceTree = "<group>";
 		};
+		E1EB76E8F99D95A7D91A2318 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D081A653F36B93CAAFF16EC0 /* Pods_TestCompanyCard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C636C1C222B220F600553064 /* Build configuration list for PBXNativeTarget "TestCompanyCard" */;
 			buildPhases = (
+				C49BD335375A817C6286C2CA /* [CP] Check Pods Manifest.lock */,
 				C636C19622B220F400553064 /* Sources */,
 				C636C19722B220F400553064 /* Frameworks */,
 				C636C19822B220F400553064 /* Resources */,
+				A13A95E7BBDF81E9FAD7B9FE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +260,6 @@
 			files = (
 				C636C1A822B220F600553064 /* LaunchScreen.storyboard in Resources */,
 				C636C1A522B220F500553064 /* Assets.xcassets in Resources */,
-				C636C1A322B220F400553064 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +279,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A13A95E7BBDF81E9FAD7B9FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestCompanyCard/Pods-TestCompanyCard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestCompanyCard/Pods-TestCompanyCard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C49BD335375A817C6286C2CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestCompanyCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C636C19622B220F400553064 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C636C1A022B220F400553064 /* ViewController.swift in Sources */,
+				C636C1CC22B2217D00553064 /* CompanyListViewController.swift in Sources */,
+				C636C1D022B22A9900553064 /* Request.swift in Sources */,
 				C636C19E22B220F400553064 /* AppDelegate.swift in Sources */,
+				C636C1CE22B2286800553064 /* CompanyCardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +370,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C636C1A122B220F400553064 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C636C1A222B220F400553064 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C636C1A622B220F600553064 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -430,6 +499,7 @@
 		};
 		C636C1C322B220F600553064 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258EA9C08EF9E714967F1111 /* Pods-TestCompanyCard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +518,7 @@
 		};
 		C636C1C422B220F600553064 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B8D87758A862DF9A4AD533 /* Pods-TestCompanyCard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
